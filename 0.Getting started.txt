@@ -1,0 +1,36 @@
+create-react-app  appname
+
+
+change title to FILMPIRE 
+
+
+React is a component based front-end library.
+componet is a small piece of UI.
+component is a piece of code that returns jsx.
+Every ReactJS application is a tree of components.
+components helps to create independent and reusable components. 
+
+split UI into different components
+    -search bar
+    -side bar
+    -navbar
+    etc
+
+    
+virtual dom is a js object
+const virtualDOM={
+    key:value,
+    key:value
+}
+
+light weight version of dom
+react updates part of page not entire page.
+
+
+react compares current element with previous element and syncs only the changes.
+
+
+
+components
+    -Functional
+    -Class-Based

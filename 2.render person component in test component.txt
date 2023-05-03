@@ -1,0 +1,30 @@
+create test  coponet and person component.
+
+
+
+function Person(){
+    return(
+        <>
+            <h1>
+                Name:Raj
+            </h1>
+            <h2>
+                Age:30
+            </h2>
+        </>
+    )
+}
+export default Person;
+
+
+
+
+import Person from './Person'
+function Test(){
+    return(
+        <>
+            <Person/>
+        </>
+    )
+}
+export default Test;

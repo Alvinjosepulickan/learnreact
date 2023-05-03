@@ -1,0 +1,24 @@
+props allow to pass dynamic data from one componet to another.
+argument passed to react componet(function parameters)
+
+
+in Test.js
+
+<Person name={"John"} age={10}/>
+
+
+in Person.js
+
+
+function Person(props){
+    return(
+        <>
+            <h1>
+                Name:{props.name}
+            </h1>
+            <h2>
+                Age:{props.age}
+            </h2>
+        </>
+    )
+}
