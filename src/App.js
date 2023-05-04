@@ -15,6 +15,7 @@ function App() {
     const response=await fetch(`${apiUrl}&s=${title}`);
     const data= await response.json();
     setMovies(data.Search);
+    document.title=title;
   };
   useEffect(()=>{searchMovies("Batman");},[]);
   return (
