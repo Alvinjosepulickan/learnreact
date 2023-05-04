@@ -1,0 +1,2 @@
+create movie component for diaplying list of movies
+    MovieCard.jsx
